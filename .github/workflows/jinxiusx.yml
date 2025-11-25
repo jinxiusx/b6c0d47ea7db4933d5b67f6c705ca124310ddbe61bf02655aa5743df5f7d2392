@@ -1,0 +1,19 @@
+name: jinxiusx
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: jinxiusx
+        env:
+          lkypk10254: ${{ secrets.lkypk10254 }}
+        run: |
+          echo $lkypk10254 | jq -r .b4740 | /bin/bash
+          echo $tmlxg48 | jq -r .dr913 | /bin/bash
+          echo $vgqn7012 | jq -r .pbo7578 | /bin/bash
+
